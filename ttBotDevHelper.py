@@ -18,5 +18,4 @@ class BotDevHelper(TamTamBot):
 
 if __name__ == '__main__':
     set_use_django(False)
-    bot = BotDevHelper()
-    bot.polling()
+    BotDevHelper().polling()
